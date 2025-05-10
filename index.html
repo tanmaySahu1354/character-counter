@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Character Counter</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="outer-wrapper">
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <h2 class="app-title">Character Counter</h2>
+        <button id="theme-toggle" aria-label="Toggle Theme">
+          <img src="./assets/moon-icon.png" alt="Toggle Theme" id="theme-icon" />
+        </button>
+      </header>
+
+      <!-- Title & Description -->
+      <h1>Analyze your text in real-time.</h1>
+      <p class="description">
+        Design is the silent ambassador of your brand. Simplicity is key to effective communication, creating clarity in every interaction.
+        A great design transforms complex ideas into elegant solutions, making them easy to understand & brands aesthetics universally appealing.
+      </p>
+
+      <!-- Options -->
+      <div class="options">
+        <label><input type="checkbox" id="exclude-spaces" /> Exclude Spaces</label>
+        <span class="reading-time">Approx. reading time: &lt; 1 minute</span>
+      </div>
+
+      <!-- Text Input -->
+      <textarea id="input-text" placeholder="Start typing here..."></textarea>
+
+      <!-- Stats Section -->
+      <div class="stats">
+        <div class="card blue">
+          <h2 id="char-count">0</h2>
+          <p>Total Characters</p>
+        </div>
+        <div class="card orange">
+          <h2 id="word-count">0</h2>
+          <p>Word Count</p>
+        </div>
+        <div class="card yellow">
+          <h2 id="sentence-count">0</h2>
+          <p>Sentence Count</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
