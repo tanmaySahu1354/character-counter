@@ -1,35 +1,46 @@
-# 🔤 Character Counter - Frontend Practice Project
+# 🔤 Character Counter
 
-A clean, responsive character counter web app built using HTML, CSS, and vanilla JavaScript. Designed with light/dark theme toggle and real-time stats display.
+A real-time character counter app built for front-end practice. Includes a light/dark theme toggle and responsive layout.
 
----
+## 📁 Project Overview
 
-## ✅ Features
+- Built with **HTML, CSS, and JavaScript**
+- Counts characters, words, and sentences in real time
+- Optional toggle to exclude spaces
+- Dark/light mode with animated toggle
+- Fully responsive on all screen sizes
 
-- 📱 Fully responsive design (desktop, tablet, mobile)
-- 🔢 Real-time character, word, and sentence count
-- 🌙 Light/Dark mode toggle with smooth transition
-- 🧼 Option to exclude spaces from character count
-- 🧠 Custom JavaScript logic for real-time updates
-- ⚡ Clean UI with no external libraries
+## 🛠️ Technologies Used
 
----
+- HTML5
+- CSS3 (Flexbox, media queries)
+- JavaScript (event listeners, DOM updates)
 
-## 🛠 Technologies Used
+## 📂 Folder Structure
 
-- 📝 HTML
-- 🎨 CSS (Flexbox, Media Queries)
-- 💻 JavaScript (DOM handling, theme switching)
+```
+character-counter/
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+    ├── moon-icon.png
+    └── sun-icon.png
+```
 
----
+## 🚀 How to Use
 
-## 🙏 Credits
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/tanmaySahu1354/character-counter.git
+   ```
+2. Open the folder in your code editor.
+3. Open `index.html` in a browser — done!
 
-Built from scratch based on real-world UI inspirations and logic often seen in [Frontend Mentor](https://www.frontendmentor.io/) styled projects.
+## ✍️ Author
 
----
+Made with ❤️ by **Tanmay Sahu**
 
-## 👤 Author
+## 🎨 Design Inspiration
 
-**Tanmay Sahu**  
-GitHub: [tanmaySahu1354](https://github.com/tanmaySahu1354)
+Inspired by real-world text tools and styled similar to Frontend Mentor projects.
