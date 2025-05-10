@@ -39,7 +39,7 @@ character-counter/
 
 ## ✍️ Author
 
-Made with ❤️ by **Tanmay Sahu**
+Made with by **Tanmay Sahu**
 
 ## 🎨 Design Inspiration
 
