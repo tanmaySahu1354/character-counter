@@ -44,3 +44,4 @@ Made with by **Tanmay Sahu**
 ## 🎨 Design Inspiration
 
 Inspired by real-world text tools and styled similar to Frontend Mentor projects.
+Live: https://char-countbytanmay.netlify.app/
